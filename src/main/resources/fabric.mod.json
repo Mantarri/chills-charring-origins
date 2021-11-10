@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Chills & Charring: Origins",
+  "description": "Origins for the Chills & Charring modpack.",
+  "authors": [
+    "MisteryMan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TheMisteryMan/chills-charring-origins",
+    "sources": "https://github.com/TheMisteryMan/chills-charring-origins"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/chillscharringorigins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "misteryman.chillscharringorigins.ChillsCharringOrigins"
+    ]
+  },
+  "mixins": [
+	"chillscharringorigins.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16",
+    "origins": ">=1.1.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

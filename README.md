@@ -1,2 +1,2 @@
-# chills-charring-origins
-Origins for the upcoming 'Chills &amp; Charring' modpack
+# Chills & Charring Origins
+Origins for the upcoming 'Chills & Charring' modpack
