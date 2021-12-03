@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"origins:fire_immunity",
+	"chillscharringorigins:blazeborn",
+	"chillscharringorigins:flaming_body",
+	"chillscharringorigins:rocket_boost"
+  ],
+  "icon": "minecraft:blaze_powder",
+  "order": 0,
+  "impact": 1
+}

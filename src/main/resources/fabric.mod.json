@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "chillsandcharringorigins",
   "version": "${version}",
 
   "name": "Chills & Charring: Origins",
@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "misteryman.chillscharringorigins.ChillsCharringOrigins"
+      "misteryman.chillscharringorigins.common.ChillsCharringOrigins"
+    ],
+    "modmenu": [
+      "misteryman.chillscharringorigins.config.ConfigModMenuIntegration"
     ]
   },
   "mixins": [

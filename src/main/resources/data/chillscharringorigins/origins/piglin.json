@@ -1,0 +1,11 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"origins:nether_spawn",
+	"chillscharringorigins:bold_gold",
+	"chillscharringorigins:food_bartering"
+  ],
+  "icon": "minecraft:golden_sword",
+  "order": 2,
+  "impact": 1
+}

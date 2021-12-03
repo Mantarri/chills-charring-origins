@@ -1,0 +1,10 @@
+{
+  "type": "origins:elytra_flight",
+  "render_elytra": true,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "chillscharringorigins:blazing_spirit_cooldown",
+    "comparison": "<=",
+    "compare_to": 0
+  }
+}

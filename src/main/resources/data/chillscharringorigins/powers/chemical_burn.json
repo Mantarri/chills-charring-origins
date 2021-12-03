@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+	"type": "chillscharringorigins:chemical_burn"
+  },
+  "cooldown": 1800,
+  "hud_render": {
+	"should_render": true
+  }
+}

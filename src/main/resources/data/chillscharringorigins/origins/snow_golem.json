@@ -1,0 +1,13 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"chillscharringorigins:snow_golem",
+	"chillscharringorigins:stamina_bar",
+	"chillscharringorigins:chilled_arrows",
+	"chillscharringorigins:icy_snowball",
+	"chillscharringorigins:frozen_heart"
+  ],
+  "icon": "minecraft:snowball",
+  "order": 3,
+  "impact": 1
+}

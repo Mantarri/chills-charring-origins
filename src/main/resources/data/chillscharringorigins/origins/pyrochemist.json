@@ -1,0 +1,14 @@
+{
+  "powers": [
+	"origins:fire_immunity",
+	"chillscharringorigins:blazeborn",
+	"chillscharringorigins:flaming_body",
+	"chillscharringorigins:chemical_burn"
+  ],
+  "icon": {
+	"item": "minecraft:splash_potion",
+	"tag": "{Potion:\"minecraft:fire_resistance\"}"
+  },
+  "order": 0,
+  "impact": 1
+}

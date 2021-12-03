@@ -1,0 +1,11 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"chillscharringorigins:freeze_frame",
+	"chillscharringorigins:frozen_heart"
+  ],
+  "unchooseable": false,
+  "icon": "minecraft:sunflower",
+  "order": 1,
+  "impact": 1
+}

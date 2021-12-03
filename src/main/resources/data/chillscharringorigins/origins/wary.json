@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "chillscharringorigins:thermophobic",
+        "chillscharringorigins:frozen_heart",
+        "chillscharringorigins:endless_quiver"
+    ],
+    "icon": "minecraft:bow",
+    "order": 1,
+    "impact": 1
+}

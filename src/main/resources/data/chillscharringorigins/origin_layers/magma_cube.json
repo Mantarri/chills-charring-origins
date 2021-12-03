@@ -1,0 +1,53 @@
+{
+  "auto_choose": true,
+  "origins": [
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "origins:origin",
+			"origin": "chillscharringorigins:magma_cube",
+			"layer": "chillscharringorigins:magma_teeny"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:magma_salamander"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:or",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "<",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "origins:origin",
+			"origin": "chillscharringorigins:magma_cube",
+			"layer": "chillscharringorigins:magma_teeny",
+			"inverted": true
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:null"
+	  ]
+	}
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "power.chillscharringorigins.stamina_bar.name": "Stamina Bar",
+  "power.chillscharringorigins.stamina_bar.description": "An alternative to the hunger system.",
+
+
+  "origin.chillscharringorigins.blazeling.name": "Blazeling",
+  "origin.chillscharringorigins.blazeling.description": "The lesser form of its Blazing brethren. Though it lacks the flight of its elders, it still blazes with the fire of the Nether.",
+  "origin.chillscharringorigins.blaze.name": "Blaze",
+  "origin.chillscharringorigins.blaze.description": "Often seen near Nether Fortresses, this is the adolescent form of the three greater Blaze types.",
+  "origin.chillscharringorigins.inferno.name": "Inferno",
+  "origin.chillscharringorigins.inferno.description": "The most straightforward of the three adult forms of the Blaze, this creature packs simple but deadly firepower.",
+  "origin.chillscharringorigins.phoenix.name": "Phoenix Blaze",
+  "origin.chillscharringorigins.phoenix.description": "One of the three adult forms of the Blaze. This one can use the heat it generates to glide through the air, and can use some of its energy to avoid death.",
+  "origin.chillscharringorigins.pyrochemist.name": "Pyrochemist",
+  "origin.chillscharringorigins.pyrochemist.description": "This blaze has learnt how to power up positive effects. Its alchemical knowledge has also given it the ability to burn away harmful effects.",
+
+  "origin.chillscharringorigins.piglin.name": "Piglin",
+  "origin.chillscharringorigins.piglin.description": "These pig-folk tend to stay close together in herds. Some have been able to go beyond this form with training, becoming Hunters or Brutes.",
+  "origin.chillscharringorigins.piglin_brute.name": "Piglin Brute",
+  "origin.chillscharringorigins.piglin_brute.description": "Rarely seen outside of Bastions and Piglin raid parties, these Piglins are tough and well-learned when it comes to axe combat.",
+  "origin.chillscharringorigins.piglin_hunter.name": "Piglin Hunter",
+  "origin.chillscharringorigins.piglin_hunter.description": "These Piglins have specialized in archery, and are common protectors of hunting parties.",
+
+  "origin.chillscharringorigins.magma_teeny.name": "Magma Teeny",
+  "origin.chillscharringorigins.magma_teeny.description": "The first stage in life of the Magma Salamander.",
+  "origin.chillscharringorigins.magma_cube.name": "Magma Cube",
+  "origin.chillscharringorigins.magma_cube.description": "The middle stage of the Magma Salamander. They deal fire damage to any entity they attack.",
+  "origin.chillscharringorigins.magma_salamander.name": "Magma Salamander",
+  "origin.chillscharringorigins.magma_salamander.description": "The final stage, these strange amphibians have more control over fire, being able to not just create, but also extinguish it.",
+
+
+
+  "origin.chillscharringorigins.snow_golem.name": "Snow Golem",
+  "origin.chillscharringorigins.snow_golem.description": "A strange being without need for food, lesser form of the mighty Aurora and Borealis.",
+  "origin.chillscharringorigins.flurry.name": "Flurry",
+  "origin.chillscharringorigins.flurry.description": "Juvenile form of the Snowfall origin, Aurora.",
+  "origin.chillscharringorigins.blizzard.name": "Blizzard",
+  "origin.chillscharringorigins.blizzard.description": "Juvenile form of the Windstorm origin, Borealis.",
+  "origin.chillscharringorigins.aurora.name": "Aurora",
+  "origin.chillscharringorigins.aurora.description": "Able to glide as if made of snow, this entity is well equipped to dissuade trespassers with Frostbite-laden arrows.",
+  "origin.chillscharringorigins.borealis.name": "Borealis",
+  "origin.chillscharringorigins.borealis.description": "Cousin to the Aurora, the Borealis can create small storms to freeze those they deem unwanted.",
+
+  "origin.chillscharringorigins.wary.name": "Wary",
+  "origin.chillscharringorigins.wary.description": "Cousins to Crafters, these entities wander. No one seems to know what they search for.",
+  "origin.chillscharringorigins.drifter.name": "Drifter",
+  "origin.chillscharringorigins.drifter.description": "A Wary that doesn't seem comfortable much around Crafters anymore.",
+  "origin.chillscharringorigins.stray.name": "Stray",
+  "origin.chillscharringorigins.stray.description": "A Drifter that has embraced the harsh climate of the wind and snow, Strays wander through the cold in search of food, shelter... or foe.",
+
+  "origin.chillscharringorigins.chillager.name": "Chillager",
+  "origin.chillscharringorigins.chillager.description": "A former illager that is quite experienced in alchemy.",
+
+
+
+  "power.chillscharringorigins.endless_quiver.name": "Endless Quiver",
+  "power.chillscharringorigins.endless_quiver.description": "You can always fire arrows, even if your inventory doesn't contain any.",
+  "power.chillscharringorigins.numbing_arrows.name": "Numbing Arrows",
+  "power.chillscharringorigins.numbing_arrows.description": "Any arrow you fire deals Slowness.",
+
+  "power.chillscharringorigins.flaming_body.name": "Flaming Body",
+  "power.chillscharringorigins.flaming_body.description": "Your body is so hot that you set fire to any being you touch.",
+
+  "power.chillscharringorigins.blazeborn.name": "Blazeborn",
+  "power.chillscharringorigins.blazeborn.description": "Being a Blaze, other Blazes won't attack you.",
+  "power.chillscharringorigins.blazing_spirit.name": "Blazing Spirit",
+  "power.chillscharringorigins.blazing_spirit.description": "You can burn up your blazing energy to avoid death. 10 Minute cooldown.",
+  "power.chillscharringorigins.refractive_wings.name": "Refractive Wings",
+  "power.chillscharringorigins.refractive_wings.description": "You can use your fire to form wings to glide around.",
+  "power.chillscharringorigins.rocket_boost.name": "Rocket Boost",
+  "power.chillscharringorigins.rocket_boost.description": "Pressing the primary action key launches you into the air.",
+  "power.chillscharringorigins.chemical_burn.name": "Chemical Burn",
+  "power.chillscharringorigins.chemical_burn.description": "Use your fire to power up any active positive effects.",
+  "power.chillscharringorigins.firestorm.name": "Firestorm",
+  "power.chillscharringorigins.firestorm.description": "You heat up the air around you so much it deals fire damage to those within it's radius.",
+
+  "power.chillscharringorigins.magma_member.name": "Magma Member",
+  "power.chillscharringorigins.magma_member.description": "Magma Cubes won't attack you.",
+
+  "power.chillscharringorigins.bold_gold.name": "Bold Gold",
+  "power.chillscharringorigins.bold_gold.description": "You get more protection and use out of gold tools, weapons, and armour.",
+  "power.chillscharringorigins.food_bartering.name": "Food Bartering",
+  "power.chillscharringorigins.food_bartering.description": "You can barter items with Piglins for food.",
+  "power.chillscharringorigins.sword_swine.name": "Sword Swine",
+  "power.chillscharringorigins.sword_swine.description": "You deal more damage with a sword.",
+  "power.chillscharringorigins.markshog.name": "Markshog",
+  "power.chillscharringorigins.markshog.description": "You deal 1.5x damage with a bow and 2.0x with a crossbow.",
+  "power.chillscharringorigins.mighty_axe.name": "Mighty Axe",
+  "power.chillscharringorigins.mighty_axe.description": "You deal more damage with an axe.",
+
+
+
+  "power.chillscharringorigins.chilled_arrows.name": "Chilled Arrows",
+  "power.chillscharringorigins.chilled_arrows.description": "Projectiles fired deal Frostbite I.",
+  "power.chillscharringorigins.frozen_quiver.name": "Frozen Quiver",
+  "power.chillscharringorigins.frozen_quiver.description": "Projectiles fired deal Frostbite II.",
+  "power.chillscharringorigins.frozen_heart.name": "Frozen Heart",
+  "power.chillscharringorigins.frozen_heart.description": "Strays won't attack you.",
+  "power.chillscharringorigins.freeze_frame.name": "Freeze Frame",
+  "power.chillscharringorigins.freeze_frame.description": "Freeze all active effects so they do not run out. Can only gain negative effects while active. Positive effects are cleared when it is turned off.",
+  "power.chillscharringorigins.permafrost.name": "Permafrost",
+  "power.chillscharringorigins.permafrost.description": "Unleash a wide cloud of biting cold that deals the Frostbite effect to any entities trapped within it.",
+  "power.chillscharringorigins.snow_golem.name": "Snow Golem.",
+  "power.chillscharringorigins.snow_golem.description": "You require no sustenance and are immune to starving and suffocation.",
+  "power.chillscharringorigins.snowfall.name": "Snowfall",
+  "power.chillscharringorigins.snowfall.description": "You can glide like snow.",
+
+
+
+  "effect.chillscharringorigins.frostbite": "Potion of Frostbite",
+  "item.minecraft.potion.effect.frostbite": "Potion of Frostbite",
+  "item.minecraft.potion.effect.long_frostbite": "Potion of Frostbite",
+  "item.minecraft.potion.effect.strong_frostbite": "Potion of Frostbite",
+  "item.minecraft.splash_potion.effect.frostbite": "Splash Potion of Frostbite",
+  "item.minecraft.splash_potion.effect.long_frostbite": "Splash Potion of Frostbite",
+  "item.minecraft.splash_potion.effect.strong_frostbite": "Splash Potion of Frostbite",
+  "item.minecraft.lingering_potion.effect.frostbite": "Lingering Potion of Frostbite",
+  "item.minecraft.lingering_potion.effect.long_frostbite": "Lingering Potion of Frostbite",
+  "item.minecraft.lingering_potion.effect.strong_frostbite": "Lingering Potion of Frostbite",
+
+  "item.minecraft.tipped_arrow.effect.frostbite": "Arrow of Frostbite",
+  "item.minecraft.tipped_arrow.effect.long_frostbite": "Arrow of Frostbite",
+  "item.minecraft.tipped_arrow.effect.strong_frostbite": "Arrow of Frostbite",
+
+  "effect.chillscharringorigins.firestorm": "Firestorm",
+  "item.minecraft.potion.effect.firestorm": "Potion of Firestorm",
+  "item.minecraft.potion.effect.long_firestorm": "Potion of Firestorm",
+  "item.minecraft.potion.effect.strong_firestorm": "Potion of Firestorm",
+  "item.minecraft.splash_potion.effect.firestorm": "Splash Potion of Firestorm",
+  "item.minecraft.splash_potion.effect.long_firestorm": "Splash Potion of Firestorm",
+  "item.minecraft.splash_potion.effect.strong_firestorm": "Splash Potion of Firestorm",
+  "item.minecraft.lingering_potion.effect.firestorm": "Lingering Potion of Firestorm",
+  "item.minecraft.lingering_potion.effect.long_firestorm": "Lingering Potion of Firestorm",
+  "item.minecraft.lingering_potion.effect.strong_firestorm": "Lingering Potion of Firestorm",
+
+  "item.minecraft.tipped_arrow.effect.firestorm": "Arrow of Firestorm",
+  "item.minecraft.tipped_arrow.effect.long_firestorm": "Arrow of Firestorm",
+  "item.minecraft.tipped_arrow.effect.strong_firestorm": "Arrow of Firestorm",
+
+  "item.chillscharringorigins.iceball": "Iceball"
+}

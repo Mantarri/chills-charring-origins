@@ -1,0 +1,76 @@
+{
+  "auto_choose": true,
+  "origins": [
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "origins:or",
+			"conditions": [
+			  {
+				"type": "origins:origin",
+				"origin": "chillscharringorigins:flurry",
+				"layer": "chillscharringorigins:snow_golem"
+			  },
+
+			  {
+				"type": "origins:origin",
+				"origin": "chillscharringorigins:blizzard",
+				"layer": "chillscharringorigins:snow_golem"
+			  }
+			]
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:aurora",
+		"chillscharringorigins:borealis"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:or",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "<",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "origins:or",
+			"conditions": [
+			  {
+				"type": "origins:origin",
+				"origin": "chillscharringorigins:flurry",
+				"layer": "chillscharringorigins:snow_golem"
+			  },
+
+			  {
+				"type": "origins:origin",
+				"origin": "chillscharringorigins:blizzard",
+				"layer": "chillscharringorigins:snow_golem"
+			  }
+			],
+			"inverted": true
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:null"
+	  ]
+	}
+  ]
+}

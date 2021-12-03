@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"chillscharringorigins:bold_gold",
+	"chillscharringorigins:food_bartering",
+	"chillscharringorigins:markshog"
+  ],
+  "unchooseable": false,
+  "icon": "minecraft:crossbow",
+  "order": 0,
+  "impact": 1
+}

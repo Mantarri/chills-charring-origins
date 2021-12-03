@@ -1,0 +1,13 @@
+{
+  "powers": [
+	"origins:nether_spawn",
+	"origins:fire_immunity",
+	"chillscharringorigins:blazeborn",
+	"chillscharringorigins:flaming_body",
+	"chillscharringorigins:refractive_wings",
+	"chillscharringorigins:blazing_spirit"
+  ],
+  "icon": "minecraft:elytra",
+  "order": 0,
+  "impact": 1
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"chillscharringorigins:frozen_heart",
+	"chillscharringorigins:permafrost"
+  ],
+  "unchoosable": false,
+  "icon": "minecraft:packed_ice",
+  "order": 1,
+  "impact": 1
+}

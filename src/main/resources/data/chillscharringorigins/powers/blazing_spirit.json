@@ -1,0 +1,51 @@
+{
+  "type": "origins:multiple",
+  "revive": {
+	"type": "origins:prevent_death",
+	"entity_action": {
+	  "type": "origins:and",
+	  "actions": [
+		{
+		  "type": "origins:clear_effect"
+		},
+		{
+		  "type": "origins:apply_effect",
+		  "effects": [
+			{
+			  "effect": "minecraft:regeneration",
+			  "amplifier": 1,
+			  "duration": 900
+			},
+			{
+			  "effect": "minecraft:fire_resistance",
+			  "duration": 800
+			},
+			{
+			  "effect": "minecraft:absorption",
+			  "amplifier": 1,
+			  "duration": 100
+			}
+		  ]
+		},
+		{
+		  "type": "origins:trigger_cooldown",
+		  "power": "chillscharringorigins:blazing_spirit_cooldown"
+		}
+	  ]
+	},
+	"condition": {
+	  "type": "origins:resource",
+	  "resource": "chillscharringorigins:blazing_spirit_cooldown",
+	  "comparison": "<=",
+	  "compare_to": 0
+	}
+  },
+
+  "cooldown": {
+	"type": "origins:cooldown",
+	"cooldown": 6000,
+	"hud_render": {
+	  "should_render": true
+	}
+  }
+}

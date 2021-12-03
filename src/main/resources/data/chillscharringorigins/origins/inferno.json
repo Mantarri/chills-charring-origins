@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"origins:nether_spawn",
+	"origins:fire_immunity",
+	"chillscharringorigins:blazeborn",
+	"chillscharringorigins:flaming_body",
+	"chillscharringorigins:firestorm"
+  ],
+  "icon": "minecraft:blaze_rod",
+  "order": 0,
+  "impact": 1
+}

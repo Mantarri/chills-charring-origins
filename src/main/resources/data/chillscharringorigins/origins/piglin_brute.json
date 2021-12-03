@@ -1,0 +1,12 @@
+{
+  "powers": [
+	"chillscharringorigins:thermophobic",
+	"chillscharringorigins:bold_gold",
+	"chillscharringorigins:food_bartering",
+	"chillscharringorigins:mighty_axe"
+  ],
+  "unchooseable": false,
+  "icon": "minecraft:golden_axe",
+  "order": 0,
+  "impact": 1
+}

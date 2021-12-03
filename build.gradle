@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.9-SNAPSHOT'
+	id 'fabric-loom' version '0.10-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -36,6 +36,19 @@ repositories {
 	maven {
 		url "https://maven.terraformersmc.com/"
 	}
+	maven {
+		name = "CottonMC"
+		url = "https://server.bbkr.space/artifactory/libs-release"
+	}
+	maven {
+		url "https://www.cursemaven.com"
+		content {
+			includeGroup "curse.maven"
+		}
+	}
+	maven {
+		url "https://maven.nucleoid.xyz/"
+	}
 }
 
 dependencies {
@@ -47,9 +60,38 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
+	// Piglib
+	modApi "com.github.Shnupbups:Piglib:${project.piglib_version}"
+	include "com.github.Shnupbups:Piglib:${project.piglib_version}"
+
+	// RPGStats
+	modImplementation "com.github.TheMisteryMan:RPGStats:${project.rpgstats_version}"
+
+	// LibGui (required by RPGStats)
+	modImplementation include("io.github.cottonmc:LibGui:$project.libgui_version")
+
+	// Translations (required by RPGStats)
+	modImplementation "fr.catcore:server-translations-api:1.4.5+1.17"
+	include "fr.catcore:server-translations-api:1.4.5+1.17"
+
+	// Harvest scythes (required by RPGStats)
+	modImplementation "curse.maven:harvestscythes-412225:3522392"
+	// Dependency for Harvest Scythes
+	modImplementation("com.github.Chocohead:Fabric-ASM:v2.3") {
+		exclude (group: "net.fabricmc.fabric-api")
+	}
+
+	// Harvest (required by RPGStats)
+	modImplementation 'curse.maven:simplerharvest-481720:3307870'
+
 	// Origins-related dependencies
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+	modImplementation "com.github.apace100:apoli:${project.apoli_version}"
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.

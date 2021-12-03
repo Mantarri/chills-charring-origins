@@ -1,0 +1,10 @@
+{
+  "powers": [
+	"origins:nether_spawn",
+	"origins:fire_immunity",
+	"chillscharringorigins:magma_member"
+  ],
+  "icon": "minecraft:blaze_powder",
+  "order": 0,
+  "impact": 1
+}

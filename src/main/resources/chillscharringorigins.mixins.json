@@ -1,14 +1,26 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "misteryman.chillscharringorigins",
+  "package": "misteryman.chillscharringorigins.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+	"AbstractSkeletonEntityMixin",
+	"BlazeEntityMixin",
+	"ItemAccessorMixin",
+	"ItemsMixin",
+	"ItemStackMixin",
+	"LivingEntityMixin",
+	"PiglinBrainInvoker",
+	"PiglinBrainMixin",
+	"PiglinEntityMixin",
+	"PlayerEntityMixin",
+	"SlimeEntityMixin",
+	"StatusEffectInstanceAccessor",
+	"StatusEffectInstanceMixin"
   ],
   "client": [
-
   ],
   "injectors": {
-    "defaultRequire": 1
+	"defaultRequire": 1
   }
 }

@@ -1,0 +1,38 @@
+{
+  "auto_choose": true,
+  "replace": true,
+  "origins": [
+	{
+	  "condition": {
+		"type": "chillscharringorigins:player_rpgstats_level",
+		"namespace": "chillscharringorigins",
+		"stat": "originlevel",
+		"comparison": "==",
+		"compare_to": 0,
+		"inverted": true
+	  },
+	  "origins": [
+		"chillscharringorigins:blazeling",
+		"chillscharringorigins:piglin",
+		"chillscharringorigins:magma_teeny",
+
+		"chillscharringorigins:wary",
+		"chillscharringorigins:snow_golem",
+		"chillscharringorigins:chillager"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "chillscharringorigins:player_rpgstats_level",
+		"namespace": "chillscharringorigins",
+		"stat": "originlevel",
+		"comparison": ">",
+		"compare_to": 1
+	  },
+	  "origins": [
+		"chillscharringorigins:null"
+	  ]
+	}
+  ]
+}
