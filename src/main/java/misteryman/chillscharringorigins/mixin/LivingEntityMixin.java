@@ -2,6 +2,8 @@ package misteryman.chillscharringorigins.mixin;
 
 import mc.rpgstats.main.RPGStats;
 import misteryman.chillscharringorigins.common.ChillsCharringOrigins;
+import misteryman.chillscharringorigins.common.RPGStatsIntegration;
+import misteryman.chillscharringorigins.common.registry.CCComponents;
 import misteryman.chillscharringorigins.common.registry.CCPowers;
 import misteryman.chillscharringorigins.common.registry.CCStatusEffects;
 import misteryman.chillscharringorigins.common.registry.CCTags;
@@ -63,7 +65,8 @@ public abstract class LivingEntityMixin extends Entity {
 				if (source instanceof ProjectileEntity) {
 					((LivingEntity) (Object) this).addStatusEffect(CCStatusEffects.newStatusEffectInstance(CCStatusEffects.FROSTBITE, 600, amplifier));
 					if(!this.world.isClient()) {
-						RPGStats.addXpAndLevelUp(ChillsCharringOrigins.id("abilityuse"), (ServerPlayerEntity) attacker, 2);
+						System.out.println("Current origin: " + CCComponents.ORIGIN.get(attacker).getOrigin());
+						RPGStatsIntegration.levelUp("originlevel", (ServerPlayerEntity) attacker, 2);
 					}
 				}
 			}
@@ -72,7 +75,7 @@ public abstract class LivingEntityMixin extends Entity {
 		if(CCPowers.NUMBING_ARROWS.isActive(attacker) && damageSource.isProjectile()) {
 			this.addStatusEffect(CCStatusEffects.newStatusEffectInstance(StatusEffects.SLOWNESS, 600, 1));
 			if(!this.world.isClient()) {
-				RPGStats.addXpAndLevelUp(ChillsCharringOrigins.id("abilityuse"), (ServerPlayerEntity) attacker, 4);
+				RPGStatsIntegration.levelUp("abilityuse", (ServerPlayerEntity) attacker, 2);
 			}
 		}
 

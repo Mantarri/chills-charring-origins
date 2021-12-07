@@ -14,6 +14,7 @@
 	"PiglinBrainMixin",
 	"PiglinEntityMixin",
 	"PlayerEntityMixin",
+	"PlayerOriginComponentMixin",
 	"SlimeEntityMixin",
 	"StatusEffectInstanceAccessor",
 	"StatusEffectInstanceMixin"

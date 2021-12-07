@@ -1,37 +1,216 @@
 {
-  "auto_choose": true,
   "replace": true,
   "origins": [
+
 	{
 	  "condition": {
 		"type": "chillscharringorigins:player_rpgstats_level",
 		"namespace": "chillscharringorigins",
 		"stat": "originlevel",
 		"comparison": "==",
-		"compare_to": 0,
-		"inverted": true
+		"compare_to": 0
 	  },
 	  "origins": [
 		"chillscharringorigins:blazeling",
 		"chillscharringorigins:piglin",
-		"chillscharringorigins:magma_teeny",
 
 		"chillscharringorigins:wary",
-		"chillscharringorigins:snow_golem",
-		"chillscharringorigins:chillager"
+		"chillscharringorigins:snow_golem"
 	  ]
 	},
 
 	{
 	  "condition": {
-		"type": "chillscharringorigins:player_rpgstats_level",
-		"namespace": "chillscharringorigins",
-		"stat": "originlevel",
-		"comparison": ">",
-		"compare_to": 1
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 1
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:blazeling"
+		  }
+		]
 	  },
 	  "origins": [
-		"chillscharringorigins:null"
+		"chillscharringorigins:blaze"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 1
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:piglin"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:piglin_guard",
+		"chillscharringorigins:piglin_hunter",
+		"chillscharringorigins:piglin_brute"
+	  ]
+	},
+
+
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": ">=",
+			"compare_to": 1
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:snow_golem"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:flurry",
+		"chillscharringorigins:blizzard"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 1
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:wary"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:drifter"
+	  ]
+	},
+
+
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:blaze"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:inferno",
+		"chillscharringorigins:phoenix",
+		"chillscharringorigins:pyrochemist"
+	  ]
+	},
+
+
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:drifter"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:stray"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:flurry"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:aurora"
+	  ]
+	},
+
+	{
+	  "condition": {
+		"type": "origins:and",
+		"conditions": [
+		  {
+			"type": "chillscharringorigins:player_rpgstats_level",
+			"namespace": "chillscharringorigins",
+			"stat": "originlevel",
+			"comparison": "==",
+			"compare_to": 2
+		  },
+
+		  {
+			"type": "chillscharringorigins:layer_compatible_origin",
+			"origin": "chillscharringorigins:blizzard"
+		  }
+		]
+	  },
+	  "origins": [
+		"chillscharringorigins:borealis"
 	  ]
 	}
   ]

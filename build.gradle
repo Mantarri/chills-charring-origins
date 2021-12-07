@@ -88,6 +88,14 @@ dependencies {
 	// Harvest (required by RPGStats)
 	modImplementation 'curse.maven:simplerharvest-481720:3307870'
 
+	// Cardinal Components API
+	// Replace modImplementation with modApi if you expose components in your own API
+	modApi "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${project.cca_version}"
+	modImplementation "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${project.cca_version}"
+	// Includes Cardinal Components API as a Jar-in-Jar dependency (optional)
+	include "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-base:${project.cca_version}"
+	include "io.github.onyxstudios.Cardinal-Components-API:cardinal-components-entity:${project.cca_version}"
+
 	// Origins-related dependencies
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"

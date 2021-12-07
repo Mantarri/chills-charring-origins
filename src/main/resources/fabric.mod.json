@@ -23,6 +23,10 @@
     ],
     "modmenu": [
       "misteryman.chillscharringorigins.config.ConfigModMenuIntegration"
+    ],
+
+    "cardinal-components-entity": [
+      "misteryman.chillscharringorigins.common.registry.CCComponents"
     ]
   },
   "mixins": [
@@ -34,9 +38,18 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16",
-    "origins": ">=1.1.4"
+    "origins": ">=1.1.4",
+    "rpgstats": ">=4.2.2",
+    "piglib": ">=1.0.4"
   },
+
   "suggests": {
     "another-mod": "*"
+  },
+
+  "custom": {
+    "cardinal-components": [
+      "chillscharringorigins:origin"
+    ]
   }
 }

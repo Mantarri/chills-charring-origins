@@ -30,12 +30,12 @@ public class ChillsCharringOrigins implements ModInitializer {
 	public static boolean configRegistered = false;
 
 	public static final EntityType<IceballEntity> IceballEntityType = Registry.register(
-			Registry.ENTITY_TYPE,
-			id("iceball"),
-			FabricEntityTypeBuilder.<IceballEntity>create(SpawnGroup.MISC, IceballEntity::new)
-					.dimensions(EntityDimensions.fixed(0.25F, 0.25F)) // dimensions in Minecraft units of the projectile
-					.trackRangeBlocks(4).trackedUpdateRate(10) // necessary for all thrown projectiles
-					.build() // VERY IMPORTANT
+		Registry.ENTITY_TYPE,
+		id("iceball"),
+		FabricEntityTypeBuilder.<IceballEntity>create(SpawnGroup.MISC, IceballEntity::new)
+			.dimensions(EntityDimensions.fixed(0.25F, 0.25F)) // dimensions in Minecraft units of the projectile
+			.trackRangeBlocks(4).trackedUpdateRate(10) // necessary for all thrown projectiles
+			.build() // VERY IMPORTANT
 	);
 
 	public static final Item IceballItem = new IceballItem(new Item.Settings().group(ItemGroup.MISC).maxCount(16));
@@ -66,21 +66,16 @@ public class ChillsCharringOrigins implements ModInitializer {
 		CCEntityActions.register();
 
 		LevelUpCallback.EVENT.register(((player, id, newLevel, hideMessages) -> {
-			// id.equals(ChillsCharringOrigins.id(""))
 			System.out.println("Levelled up: " + id + " to level: " + newLevel);
-			/*
-			if(true) {
-				//RPGStatsIntegration.stageTwoRequiredLevel
-				if(newLevel >= 1) {
-					RPGStatsIntegration.originLevelUp(player.getEntityWorld(), player);
 
-					if(newLevel >= RPGStatsIntegration.stageTwoRequiredLevel) {
-
-					}
-				}
+			if((
+				newLevel == RPGStatsIntegration.stageZeroLevelRequired ||
+				newLevel == RPGStatsIntegration.stageOneLevelRequired ||
+				newLevel == RPGStatsIntegration.stageTwoLevelRequired)
+				&& id.equals(ChillsCharringOrigins.id("originlevel"))) {
+				RPGStatsIntegration.originLevelUp(player.getEntityWorld(), player);
 			}
 
-			 */
 		}));
 
 	}
