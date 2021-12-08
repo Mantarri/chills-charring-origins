@@ -26,7 +26,7 @@ public class IceballItem extends Item {
 		if (!world.isClient) {
 			IceballEntity snowballEntity = new IceballEntity(world, user);
 			snowballEntity.setItem(itemStack);
-			snowballEntity.setProperties(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 0F);
+			snowballEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 0F);
 			world.spawnEntity(snowballEntity);
 		}
 

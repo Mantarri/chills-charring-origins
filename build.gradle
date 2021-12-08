@@ -3,8 +3,8 @@ plugins {
 	id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_16
-targetCompatibility = JavaVersion.VERSION_16
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
@@ -75,18 +75,18 @@ dependencies {
 	modImplementation include("io.github.cottonmc:LibGui:$project.libgui_version")
 
 	// Translations (required by RPGStats)
-	modImplementation "fr.catcore:server-translations-api:1.4.5+1.17"
-	include "fr.catcore:server-translations-api:1.4.5+1.17"
+	modImplementation "fr.catcore:server-translations-api:${project.server_translations_version}"
+	include "fr.catcore:server-translations-api:${project.server_translations_version}"
 
 	// Harvest scythes (required by RPGStats)
-	modImplementation "curse.maven:harvestscythes-412225:3522392"
+	modImplementation "curse.maven:HarvestScythes-${project.harvest_scythes_version}"
 	// Dependency for Harvest Scythes
-	modImplementation("com.github.Chocohead:Fabric-ASM:v2.3") {
+	modImplementation("com.github.Chocohead:Fabric-ASM:${project.fabric_asm_version}") {
 		exclude (group: "net.fabricmc.fabric-api")
 	}
 
 	// Harvest (required by RPGStats)
-	modImplementation 'curse.maven:simplerharvest-481720:3307870'
+	modImplementation("com.github.TheMisteryMan:Harvest:${project.harvest_version}")
 
 	// Cardinal Components API
 	// Replace modImplementation with modApi if you expose components in your own API

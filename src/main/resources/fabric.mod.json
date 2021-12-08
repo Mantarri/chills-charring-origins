@@ -34,12 +34,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.12.8",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16",
-    "origins": ">=1.1.4",
-    "rpgstats": ">=4.2.2",
+    "minecraft": "1.18",
+    "java": ">=17",
+    "origins": ">=1.3.0",
+    "rpgstats": ">=4.3.0",
     "piglib": ">=1.0.4"
   },
 
